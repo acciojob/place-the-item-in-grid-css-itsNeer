@@ -1,2 +1,16 @@
+.holder{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: repeat(2, 1fr);
+	height:200px;
+	width:200px;
+	gap: 0;
+}
 
+.holder div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+}
 /* Your CSS Code here. */
